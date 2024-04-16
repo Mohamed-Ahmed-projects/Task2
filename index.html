@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            border: none;
+            text-decoration: none;
+            color: black;
+            margin: 0;
+        }
+        body {
+            background: #eee;
+            scroll-behavior: smooth;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 150px 150px 150px 150px 150px;
+            gap: 5px;
+            background: green;
+            margin: 50px auto;
+            width:max-content;
+            border: 5px solid green;
+        }
+        div.product {
+            height: 150px;
+            background: white;
+        }
+        img {
+            height: 100%;
+            width: 100%
+        }
+        .form {
+            width: 730px;
+            border: 5px solid green;
+            background: white;
+            border-radius: 25px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        input {
+            border: 1px solid #eee;
+            width: 90%;
+            background: #eee;
+            margin: 20px;
+            height: 30px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="product"><a href="iframe_page.html"><img src="images/galaxy_s20.jpg" alt="Galaxy S20"></a></div>
+        <div class="product"><a href="#"><img src="images/iPhone 12 Pro Max.jpg" alt="Galaxy S20"></a></div>
+        <div class="product"><a href="#"><img src="images/Pixel 6.jpeg" alt="Galaxy S20"></a></div>
+        <div class="product"><a href="#"><img src="images/Huawei P40 Pro.jpg" alt="Galaxy S20"></a></div>
+        <div class="product"><a href="#"><img src="images/Xiaomi Mi 11.jpg" alt="Galaxy S20"></a></div>
+        <div class="product"><a href="#"><img src="images/OnePlus 9 Pro.jpg" alt="Galaxy S20"></a></div>
+        <div class="product"><a href="#"><img src="images/LG Velvet.jpg" alt="Galaxy S20"></a></div>
+        <div class="product"><a href="#"><img src="images/Sony Xperia 1 II.jpg" alt="Galaxy S20"></a></div>
+        <div class="product"><a href="#"><img src="images/Motorola Edge+.jpg" alt="Galaxy S20"></a></div>
+        <div class="product"><a href="#"><img src="images/Oppo Find X3 Pro.jpg" alt="Galaxy S20"></a></div>
+        <div class="product"><a href="#"><img src="images/Asus Zenfone 8.jpeg" alt="Galaxy S20"></a></div>
+        <div class="product"><a href="#"><img src="images/Vivo X60 Pro+.jpg" alt="Galaxy S20"></a></div>
+        <div class="product"><a href="#"><img src="images/Realme GT.png" alt="Galaxy S20"></a></div>
+        <div class="product"><a href="#"><img src="images/Nokia 8.3.jpg" alt="Galaxy S20"></a></div>
+        <div class="product"><a href="#"><img src="images/Lenovo Legion Phone Duel.png" alt="Galaxy S20"></a></div>
+        <div class="product"><a href="#"><img src="images/OnePlus 9 Pro.jpg" alt="Galaxy S20"></a></div>
+        <div class="product"><a href="#"><img src="images/LG Velvet.jpg" alt="Galaxy S20"></a></div>
+        <div class="product"><a href="#"><img src="images/Sony Xperia 1 II.jpg" alt="Galaxy S20"></a></div>
+        <div class="product"><a href="#"><img src="images/Motorola Edge+.jpg" alt="Galaxy S20"></a></div>
+        <div class="product"><a href="#"><img src="images/Oppo Find X3 Pro.jpg" alt="Galaxy S20"></a></div>
+        <div class="product"><a href="#"><img src="images/Asus Zenfone 8.jpeg" alt="Galaxy S20"></a></div>
+        <div class="product"><a href="#"><img src="images/Vivo X60 Pro+.jpg" alt="Galaxy S20"></a></div>
+        <div class="product"><a href="#"><img src="images/Realme GT.png" alt="Galaxy S20"></a></div>
+        <div class="product"><a href="#"><img src="images/Nokia 8.3.jpg" alt="Galaxy S20"></a></div>
+        <div class="product"><a href="#"><img src="images/Lenovo Legion Phone Duel.png" alt="Galaxy S20"></a></div>
+    </div>
+    <div class="form">
+        <form action="#">
+            
+            <label for="fName">First Name</label>
+            <input type="text" id="fName"> <br>
+            <label for="sName">Second Name</label>
+            <input type="text" id="sName"><br>
+            <label for="pNumber">Phone</label>
+            <input type="number" id="pNumber"><br>
+            <label for="email">Email</label>
+            <input type="email" id="email"><br>
+            <label for="password">Password</label>
+            <input type="password" id="password"><br>
+        
+            <input type="submit" placeholder="Submit" style="background-color: green; width: 40%; margin-left: 30%; margin-right: auto;cursor: pointer; font-size: 25px;">
+        </form>
+    </div>
+</body>
+</html>
